@@ -1,4 +1,6 @@
-  <h1 style="text-align: center;" >RegModel</h1> 
+<h1 style="text-align: center;" >RegModel 
+</h1> 
+
 <div style="text-align: center;font-weight: bold;" >Enhanced regular expression system. Based on functional-declarative programming.</div>
 
 <br>
@@ -24,4 +26,4 @@
 
  
 <br>
-<br>You can see more information and video examples at <a href="https://jnode.eu/pageapp/RegModel/RegModel.html">https://jnode.eu/pageapp/RegModel/RegModel.html</a>
+<br>You can see more information and video examples at <a href="https://jnode.eu/pageapp/RegModel/RegModel.html?from=github">https://jnode.eu/pageapp/RegModel/RegModel.html</a>
