@@ -10,6 +10,7 @@
 <ul> 
   <li>Matching text expressions.</li>
   <li>Parse any text. And extract what is needed or get the range.</li>
+  <li>Fuzzy logic search and match.</li>
   <li>With RegModel it is not need any more to split the input string to many sub string and looking in them.
 	</li>
 </ul>
