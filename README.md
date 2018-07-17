@@ -25,7 +25,6 @@
   <li>RegModel is faser 200-300% then regular expression. Because RegModel not need to compile pattern.</li>
 </ul>
 
-<img src="https://jnode.eu/version.jpg">
 <br>A typical usage:
 <br>&nbsp;&nbsp;&nbsp;String bigString = "Women, from Montreal.";
 <br>&nbsp;&nbsp;&nbsp;RegModel regModel = new RegModel(bigString); 
