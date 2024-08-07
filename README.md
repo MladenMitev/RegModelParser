@@ -19,6 +19,7 @@
 
 ## Why RegModel is better than regular expression :
 - Easy to undersand.
+- You can combine declarative and functional programming without creating memory-intensive substrings and arrays
 - You can write a very complicated logic in few word.</li>
 - RegModel is very light and much faster technology compared to regular expressions.</li>
 - RegModel use small memory and have small footprint.</li>
