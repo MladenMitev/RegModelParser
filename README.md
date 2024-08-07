@@ -32,12 +32,13 @@
 //Input string       :  'width: 100px;'
 ______________________________________
 RegModelDebug regModel = new RegModelDebug("width: 100px;");
-String property = regModel                                         // range(0->0)  selected model ''
-                          .word().get();                           // range(0->5)  selected model 'width'
-String value = regModel.char1(':')                                 // range(5->6)  selected model ':'
-                          .wspace0()                               // range(6->7)  selected model ' '
-                          .number().get();                         // range(7->10)  selected model '100'
-String unit = regModel.word().get();                               // range(10->12)  selected model 'px'
+String property = regModel                    // range(0->0)  selected model ''
+                  .word().get();              // range(0->5)  selected model 'width'
+String value = regModel.char1(':')            // range(5->6)  selected model ':'
+                  .wspace0()                  // range(6->7)  selected model ' '
+                  .number().get();            // range(7->10)  selected model '100'
+String unit = regModel.word().get();          // range(10->12)  selected model 'px'
+
 ```
 
 <br>
